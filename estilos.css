@@ -1,7 +1,7 @@
 * 
 {
 	color: blue;
-     font-family: 'Open Sans', sans-serif;
+    font-family: 'Gilda Display', serif;
     
 }
 
@@ -15,7 +15,8 @@ body{
 
 .h1-titulo {
     color: burlywood;
-    font-family:  'Rubik Puddles', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Mono', monospace;
     background-color: rgb(193, 248, 137);
     display: block;
     text-align: center;
@@ -30,6 +31,7 @@ body{
     background-color:rgb(193, 248, 137);
     padding: 10px;
     margin-bottom: 10px;
+    
     
 }
 .contenedor:hover{
@@ -62,6 +64,7 @@ p{
 }
 
 .List{
+    font-family: 'Gilda Display', serif;
     display: flex;
     justify-content: center;
     background-color:rgb(193, 248, 137) ;
