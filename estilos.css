@@ -1,13 +1,13 @@
 * 
 {
-	color: blue;
+	color: rgb(240, 0, 232);
     font-family: 'Gilda Display', serif;
     border-radius: 10px;
     
 }
 
 *:hover{
-    color: red;
+    color: rgb(88, 102, 250);
 }
 
 body{
@@ -85,6 +85,17 @@ font-family: 'Roboto Mono', monospace;
     background-color:rgb(212, 248, 176)
 }
 
+.subcontenedor4 {
+    display:flex ;
+    display: inline-block;
+    flex-wrap: nowrap;
+    width: 100;
+    flex-direction: row-reverse;
+    padding: 50px;
+    background-color:rgb(212, 248, 176)
+
+}
+
 
 
 h2, h3 {
@@ -105,7 +116,7 @@ p{
     font-family: 'Gilda Display', serif;
     display: flex;
     justify-content: center;
-    background-color:rgb(248, 255, 155) ;
+    background-color:rgb(197, 255, 155) ;
     margin-left: 250px;
     margin-right: 250px;
     border-radius: 50px;
@@ -130,6 +141,7 @@ p{
 .img2 { 
     width: 200px;
     height: 180px;
-      
+     
+   
 
 }
