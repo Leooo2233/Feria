@@ -2,6 +2,7 @@
 {
 	color: blue;
     font-family: 'Gilda Display', serif;
+    border-radius: 10px;
     
 }
 
@@ -10,44 +11,73 @@
 }
 
 body{
-    background-color: rgb(252, 209, 153);
+    background-color: rgb(252, 189, 238);
 }
 
 .h1-titulo {
-    color: burlywood;
+    color: rgb(135, 222, 218);
     font-family: 'Roboto Condensed', sans-serif;
 font-family: 'Roboto Mono', monospace;
-    background-color: rgb(193, 248, 137);
-    display: block;
+    background-color: rgb(212, 250, 175);
+    display: inline-block;
     text-align: center;
-    padding: 10px;
+    padding: 50px;
+    position: relative;
+    left: 390px;
+    border-radius: 20px;
     
+
     
     
 
 
 }
 .contenedor{
-    background-color:rgb(193, 248, 137);
+    background-color:rgb(212, 248, 176);
     padding: 10px;
     margin-bottom: 10px;
     
     
 }
+
+.contenedor_3 {
+    background-color:rgb(212, 248, 176);
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    
+    
+}
+
 .contenedor:hover{
     box-shadow: 20px, 20px, black;
 }
 
 .subcontenedor{
-    display: flex;
+    display:flex ;
     flex-wrap: nowrap;
+    width: 100;
+    flex-direction: row-reverse;
+    background-color:rgb(212, 248, 176)
 }
 .subcontenedor2{
     display:flex ;
     flex-wrap: nowrap;
     width: 100;
     flex-direction: row-reverse;
+    background-color:rgb(212, 248, 176)
 }
+
+.subcontenedor3 {
+
+    display:flex ;
+    flex-wrap: nowrap;
+    width: 100;
+    flex-direction: row-reverse;
+    background-color:rgb(212, 248, 176)
+}
+
+
 
 h2, h3 {
     text-align: center;
@@ -67,7 +97,10 @@ p{
     font-family: 'Gilda Display', serif;
     display: flex;
     justify-content: center;
-    background-color:rgb(193, 248, 137) ;
+    background-color:rgb(248, 255, 155) ;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 50px;
 }
 .sublista{
     
@@ -88,6 +121,7 @@ p{
     width: 200px;
     height: 180px;
     position: relative;
+    top: 50px;
     
     
     
