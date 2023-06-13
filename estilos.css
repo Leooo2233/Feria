@@ -17,12 +17,10 @@ body{
 .h1-titulo {
     color: rgb(135, 222, 218);
     font-family: 'Roboto Condensed', sans-serif;
-font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
     background-color: rgb(212, 250, 175);
-    display: inline-block;
     text-align: center;
     padding: 50px;
-    position: relative;
     left: 390px;
     border-radius: 20px;
     
@@ -56,6 +54,7 @@ font-family: 'Roboto Mono', monospace;
 .subcontenedor{
     display:flex ;
     flex-wrap: nowrap;
+
     width: 100;
     flex-direction: row-reverse;
     margin-bottom: 30px;
@@ -77,7 +76,6 @@ font-family: 'Roboto Mono', monospace;
 .subcontenedor3 {
 
     display:flex ;
-    display: inline-block;
     flex-wrap: nowrap;
     width: 100;
     flex-direction: row-reverse;
@@ -132,16 +130,15 @@ p{
     margin-bottom: 30px;
     width: 20em;
     height: 8em;
-    background:linear-gradient(to left, transparent, rgb(193, 248, 137));
-    position: relative;
-    padding-right: 50px;
-   
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(197, 255, 155), rgb(197, 255, 155), rgb(197, 255, 155));
+    border-radius: 30px;
+    margin: 20px;
 }
 
 .img2 { 
     width: 200px;
     height: 180px;
-     
+     margin: 20px;
    
 
 }
