@@ -25,6 +25,7 @@ font-family: 'Roboto Mono', monospace;
     position: relative;
     left: 390px;
     border-radius: 20px;
+  
     
 
     
@@ -36,6 +37,7 @@ font-family: 'Roboto Mono', monospace;
     background-color:rgb(212, 248, 176);
     padding: 10px;
     margin-bottom: 30px;
+    
     
     
 }
@@ -81,7 +83,11 @@ font-family: 'Roboto Mono', monospace;
     flex-wrap: nowrap;
     width: 100;
     flex-direction: row-reverse;
-    padding: 50px;
+    padding-left: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    
     background-color:rgb(212, 248, 176)
 }
 
@@ -141,7 +147,8 @@ p{
 .img2 { 
     width: 200px;
     height: 180px;
-     
+     position: absolute;
+     display: inline-block;
    
 
 }
