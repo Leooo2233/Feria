@@ -61,8 +61,11 @@ font-family: 'Roboto Mono', monospace;
     width: 100;
     flex-direction: row-reverse;
     margin-bottom: 30px;
-    padding: 30px;
-    padding-bottom: 5px;
+    padding-left: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    position: relative;
     background-color:rgb(212, 248, 176)
 }
 .subcontenedor2{
@@ -87,6 +90,7 @@ font-family: 'Roboto Mono', monospace;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-right: 50px;
+    position: relative;
     
     background-color:rgb(212, 248, 176)
 }
@@ -139,8 +143,10 @@ p{
     width: 20em;
     height: 8em;
     background:linear-gradient(to left, transparent, rgb(193, 248, 137));
-    position: relative;
-    padding-right: 50px;
+    position: absolute;
+   
+    left: 20px;
+    top: 50px;
    
 }
 
@@ -148,7 +154,8 @@ p{
     width: 200px;
     height: 180px;
      position: absolute;
-     display: inline-block;
-   
+     display: inline;
+     left: 20px;
+    top: 35px;
 
 }
