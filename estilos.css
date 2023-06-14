@@ -23,6 +23,7 @@ body{
     padding: 50px;
     left: 390px;
     border-radius: 20px;
+  
     
 
     
@@ -34,6 +35,7 @@ body{
     background-color:rgb(212, 248, 176);
     padding: 10px;
     margin-bottom: 30px;
+    
     
     
 }
@@ -58,8 +60,11 @@ body{
     width: 100;
     flex-direction: row-reverse;
     margin-bottom: 30px;
-    padding: 30px;
-    padding-bottom: 5px;
+    padding-left: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    position: relative;
     background-color:rgb(212, 248, 176)
 }
 .subcontenedor2{
@@ -79,7 +84,12 @@ body{
     flex-wrap: nowrap;
     width: 100;
     flex-direction: row-reverse;
-    padding: 50px;
+    padding-left: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    position: relative;
+    
     background-color:rgb(212, 248, 176)
 }
 
@@ -138,7 +148,9 @@ p{
 .img2 { 
     width: 200px;
     height: 180px;
-     margin: 20px;
-   
+     position: absolute;
+     display: inline;
+     left: 20px;
+    top: 35px;
 
 }
