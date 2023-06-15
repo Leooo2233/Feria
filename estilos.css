@@ -65,7 +65,10 @@ body{
     padding-bottom: 50px;
     padding-right: 50px;
     position: relative;
-    background-color:rgb(212, 248, 176)
+    
+    background-color:rgb(212, 248, 176) 
+    
+
 }
 .subcontenedor2{
     display:flex ;
@@ -135,7 +138,7 @@ p{
     padding: 10px;
 }
 .img1{
-    display: inline;
+    display: inline-block;
     margin-left: 5px;
     margin-bottom: 30px;
     width: 20em;
@@ -143,6 +146,7 @@ p{
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(197, 255, 155), rgb(197, 255, 155), rgb(197, 255, 155));
     border-radius: 30px;
     margin: 20px;
+    
 }
 
 .img2 { 
