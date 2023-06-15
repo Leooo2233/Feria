@@ -45,7 +45,9 @@ body{
     padding: 10px;
     margin-bottom: 30px;
     margin-top: 30px;
-    
+    display: flex ;
+    flex-wrap: nowrap;
+    justify-content: center;
     
 }
 
@@ -56,15 +58,12 @@ body{
 .subcontenedor{
     display:flex ;
     flex-wrap: nowrap;
-
     width: 100;
-    flex-direction: row-reverse;
     margin-bottom: 30px;
-    padding-left: 400px;
+    padding-left:20px ;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-right: 50px;
-    position: relative;
     background-color:rgb(212, 248, 176)
 }
 .subcontenedor2{
@@ -84,7 +83,7 @@ body{
     flex-wrap: nowrap;
     width: 100;
     flex-direction: row-reverse;
-    padding-left: 250px;
+    padding-left: 20px;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-right: 50px;
@@ -148,9 +147,6 @@ p{
 .img2 { 
     width: 200px;
     height: 180px;
-     position: absolute;
-     display: inline;
-     left: 20px;
-    top: 35px;
-
+    display: inline;
+    margin: 20px;
 }
