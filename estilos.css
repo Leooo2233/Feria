@@ -35,31 +35,42 @@ body{
 
 
 }
+
+#c {
+    display: flex;
+    justify-content: center;
+}
 .contenedor{
-    
+
     padding: 10px;
     margin-bottom: 15px;
     margin-left: 5px;
     margin-right: 5px;
-   
-    
 }
 
 
 
+article{
+    background-color: rgb(212, 248, 176);
+}
 
+.subcontenedor{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
 
 .contenedor:hover{
     box-shadow: 20px, 20px, black;
 }
 
-.subcontenedor{
+
+.subsubcontenedor{
     display:flex ;
     flex-wrap: nowrap;
     width: 100;
-    margin-bottom: 5px;
-    position: relative;
-   
+    margin-bottom: 30px;
+    background-color:rgb(212, 248, 176)
 }
 
 .contenedor-lista {
@@ -84,6 +95,47 @@ body{
 .contenedor, .contenedor-lista, .subcontenedor, .subcontenedor-lista, .List {
     background-color:rgb(144, 254, 245);
 }
+
+
+
+
+
+
+/*.subcontenedor2{
+    display:flex ;
+    flex-wrap: nowrap;
+    width: 100;
+    flex-direction: row-reverse;
+    padding: 50px ;
+    background-color:rgb(212, 248, 176)
+
+
+}*/
+
+/*.subcontenedor3 {
+
+    display:flex ;
+    flex-wrap: nowrap;
+    width: 100;
+    flex-direction: row-reverse;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    background-color:rgb(212, 248, 176)
+} */
+
+/*.subcontenedor4 {
+    display:flex ;
+    display: inline-block;
+    flex-wrap: nowrap;
+    width: 100;
+    flex-direction: row-reverse;
+    padding: 50px;
+    background-color:rgb(212, 248, 176)
+
+}*/
+
 
 
 h2, h3 {
@@ -114,26 +166,27 @@ p{
     padding: 10px;
 }
 .img1{
-    display: inline-block;
-    margin-left: 5px;
-    margin-bottom: 30px;
+    display: inline;
     width: 20em;
     height: 8em;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(197, 255, 155), rgb(197, 255, 155), rgb(197, 255, 155));
     border-radius: 30px;
     margin: 20px;
     
 }
 
 .img2 { 
-    display: inline-block;
+    display: inline;
     margin-left: 5px;
     margin-bottom: 30px;
-    width: 20em;
-    height: 8em;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(197, 255, 155), rgb(197, 255, 155), rgb(197, 255, 155));
+    width: 300px;
+    height: 200px;
     border-radius: 30px;
     margin: 20px;
-    
+}
 
+.subcontenedor{
+   background-color: rgb(197, 255, 155);
+   display: flex;
+   flex-wrap: nowrap;
+   flex-direction: row-reverse;
 }
