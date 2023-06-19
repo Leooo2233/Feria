@@ -35,14 +35,17 @@ body{
 
 
 }
+
+#c {
+    display: flex;
+    justify-content: center;
+}
 .contenedor{
-    
+
     padding: 10px;
     margin-bottom: 15px;
     margin-left: 5px;
     margin-right: 5px;
-   
-    
 }
 
 /*.contenedor_3 {
@@ -55,11 +58,14 @@ body{
 }*/
 
 
-
+article{
+    background-color: rgb(212, 248, 176);
+}
 
 .subcontenedor{
     display: flex;
     flex-wrap: nowrap;
+    
 }
 
 .contenedor:hover{
@@ -171,21 +177,24 @@ p{
     display: inline;
     width: 20em;
     height: 8em;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(197, 255, 155), rgb(197, 255, 155), rgb(197, 255, 155));
     border-radius: 30px;
     margin: 20px;
     
 }
 
 .img2 { 
-    display: inline-block;
+    display: inline;
     margin-left: 5px;
     margin-bottom: 30px;
-    width: 20em;
-    height: 8em;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(197, 255, 155), rgb(197, 255, 155), rgb(197, 255, 155));
+    width: 300px;
+    height: 200px;
     border-radius: 30px;
     margin: 20px;
-    
+}
 
+.subcontenedor{
+   background-color: rgb(197, 255, 155);
+   display: flex;
+   flex-wrap: nowrap;
+   flex-direction: row-reverse;
 }
