@@ -45,14 +45,6 @@ body{
     
 }
 
-/*.contenedor_3 {
-    background-color:rgb(212, 248, 176);
-    padding: 10px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    
-    
-}*/
 
 
 
@@ -92,49 +84,6 @@ body{
 .contenedor, .contenedor-lista, .subcontenedor, .subcontenedor-lista, .List {
     background-color:rgb(144, 254, 245);
 }
-
-
-
-
-
-
-/*.subcontenedor2{
-    display:flex ;
-    flex-wrap: nowrap;
-    width: 100;
-    flex-direction: row-reverse;
-    padding: 50px ;
-    background-color:rgb(212, 248, 176)
-
-
-}*/
-
-/*.subcontenedor3 {
-
-    display:flex ;
-    flex-wrap: nowrap;
-    width: 100;
-    flex-direction: row-reverse;
-    padding-left: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 50px;
-    position: relative;
-    
-    background-color:rgb(212, 248, 176)
-} */
-
-/*.subcontenedor4 {
-    display:flex ;
-    display: inline-block;
-    flex-wrap: nowrap;
-    width: 100;
-    flex-direction: row-reverse;
-    padding: 50px;
-    background-color:rgb(212, 248, 176)
-
-}*/
-
 
 
 h2, h3 {
