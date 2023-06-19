@@ -51,19 +51,21 @@ body{
     
 }
 
+.subcontenedor{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 .contenedor:hover{
     box-shadow: 20px, 20px, black;
 }
 
-.subcontenedor{
+
+.subsubcontenedor{
     display:flex ;
     flex-wrap: nowrap;
     width: 100;
     margin-bottom: 30px;
-    padding-left:20px ;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 50px;
     background-color:rgb(212, 248, 176)
 }
 .subcontenedor2{
@@ -87,8 +89,6 @@ body{
     padding-top: 50px;
     padding-bottom: 50px;
     padding-right: 50px;
-    position: relative;
-    
     background-color:rgb(212, 248, 176)
 }
 
@@ -135,8 +135,6 @@ p{
 }
 .img1{
     display: inline;
-    margin-left: 5px;
-    margin-bottom: 30px;
     width: 20em;
     height: 8em;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(197, 255, 155), rgb(197, 255, 155), rgb(197, 255, 155));
