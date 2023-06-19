@@ -1,28 +1,32 @@
 * 
 {
-	color: rgb(240, 0, 232);
+	color: rgb(120, 107, 236);
     font-family: 'Gilda Display', serif;
     border-radius: 10px;
     
 }
 
 *:hover{
-    color: rgb(88, 102, 250);
+    color: rgb(5, 25, 242);
 }
 
 body{
-    background-color: rgb(252, 189, 238);
+    background-color: rgba(255, 212, 119, 0.992);
 }
 
 .h1-titulo {
+    position: sticky;
     color: rgb(135, 222, 218);
     font-family: 'Roboto Condensed', sans-serif;
     font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
     background-color: rgb(212, 250, 175);
     text-align: center;
     padding: 50px;
-    left: 390px;
-    border-radius: 20px;
+     border-radius: 20px;
+     display: block;
+     margin-left: 100px;
+     margin-right: 100px;
   
     
 
@@ -32,24 +36,26 @@ body{
 
 }
 .contenedor{
-    background-color:rgb(212, 248, 176);
+    
     padding: 10px;
-    margin-bottom: 30px;
-    
-    
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+   
     
 }
 
-.contenedor_3 {
+/*.contenedor_3 {
     background-color:rgb(212, 248, 176);
     padding: 10px;
     margin-bottom: 30px;
     margin-top: 30px;
-    display: flex ;
-    flex-wrap: nowrap;
-    justify-content: center;
     
-}
+    
+}*/
+
+
+
 
 .subcontenedor{
     display: flex;
@@ -68,7 +74,36 @@ body{
     margin-bottom: 30px;
     background-color:rgb(212, 248, 176)
 }
-.subcontenedor2{
+
+.contenedor-lista {
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+
+}
+
+.subcontenedor-lista {
+    display:flex ;
+    flex-wrap: nowrap;
+    width: 100;
+    margin-bottom: 5px;
+    position: relative;
+    
+}
+
+
+.contenedor, .contenedor-lista, .subcontenedor, .subcontenedor-lista, .List {
+    background-color:rgb(144, 254, 245);
+}
+
+
+
+
+
+
+/*.subcontenedor2{
     display:flex ;
     flex-wrap: nowrap;
     width: 100;
@@ -77,9 +112,9 @@ body{
     background-color:rgb(212, 248, 176)
 
 
-}
+}*/
 
-.subcontenedor3 {
+/*.subcontenedor3 {
 
     display:flex ;
     flex-wrap: nowrap;
@@ -90,9 +125,9 @@ body{
     padding-bottom: 50px;
     padding-right: 50px;
     background-color:rgb(212, 248, 176)
-}
+} */
 
-.subcontenedor4 {
+/*.subcontenedor4 {
     display:flex ;
     display: inline-block;
     flex-wrap: nowrap;
@@ -101,7 +136,7 @@ body{
     padding: 50px;
     background-color:rgb(212, 248, 176)
 
-}
+}*/
 
 
 
@@ -123,7 +158,6 @@ p{
     font-family: 'Gilda Display', serif;
     display: flex;
     justify-content: center;
-    background-color:rgb(197, 255, 155) ;
     margin-left: 250px;
     margin-right: 250px;
     border-radius: 50px;
@@ -140,11 +174,18 @@ p{
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(197, 255, 155), rgb(197, 255, 155), rgb(197, 255, 155));
     border-radius: 30px;
     margin: 20px;
+    
 }
 
 .img2 { 
-    width: 200px;
-    height: 180px;
-    display: inline;
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 30px;
+    width: 20em;
+    height: 8em;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(197, 255, 155), rgb(197, 255, 155), rgb(197, 255, 155));
+    border-radius: 30px;
     margin: 20px;
+    
+
 }
