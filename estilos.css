@@ -79,7 +79,7 @@ body{
 }
 
 
-.contenedor, .contenedor-lista, .subcontenedor, .subcontenedor-lista, .List, .contenedor-indice {
+.contenedor, .contenedor-lista, .subcontenedor, .subcontenedor-lista, .List, .contenedor-indice, .contenedor-1, .subcontenedor-2 {
     background-color:rgb(144, 254, 245);
 }
 
@@ -159,3 +159,37 @@ p{
 .text{
     display: flex;
     flex-wrap: nowrap;}
+
+.contenedor-1{
+    padding: 10px;
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 100;
+    height: 100;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.subcontenedor-1{
+    display:flex ;
+    flex-wrap: nowrap;
+    width: 100;
+    position: relative;
+    padding-right: 20px;
+}
+
+.h2{
+    display: inline;
+    text-align: center;
+margin-left: 20px;
+}
+.p{
+    display: inline;
+    width: 250px;
+}
+.supercontenedor{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
