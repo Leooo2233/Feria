@@ -39,7 +39,7 @@ body{
     margin-bottom: 15px;
     margin-left: 10px;
     margin-right: 10px;
-    
+    outline: rgb(71, 195, 81) solid 2px;
 }
 
 
@@ -62,10 +62,7 @@ body{
     margin-bottom: 15px;
     display: inline-block;
     margin-left: 50px;
-
-
-
-
+    
 
 }
 
@@ -84,6 +81,10 @@ body{
     background-color:rgb(144, 254, 245);
 }
 
+.contenedor-lista, .contenedor-1, .contenedor-indice, .List  {
+    outline: rgb(71, 195, 81) solid 2px;
+}
+
 
 
 
@@ -91,7 +92,10 @@ h2, h3 {
     text-align: center;
     text-decoration: underline;
     display: block;
+    color: rgb(25, 0, 255);
 }
+
+
 
 
 
