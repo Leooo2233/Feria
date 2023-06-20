@@ -15,7 +15,6 @@ body{
 }
 
 .h1-titulo {
-    position: sticky;
     color: rgb(135, 222, 218);
     font-family: 'Noto Sans Siddham', sans-serif;
     font-family: 'Poor Story', cursive;
@@ -23,9 +22,11 @@ body{
     font-size: 100px;
     background-color: rgb(212, 250, 175);
     text-align: center;
+    padding: 5px;
     border-radius: 20px;
     display: block;
     margin: 20px;
+    outline: rgb(71, 195, 81) solid 5px;
 }
 
 #c {
@@ -116,7 +117,7 @@ p{
 .img1{
     display: inline;
     width: 20em;
-    height: 8em;
+    height: 10em;
     border-radius: 30px;
     margin: 20px;
    
