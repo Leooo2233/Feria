@@ -2,7 +2,7 @@
 {
 	color: rgb(25, 0, 255);
     font-family: 'Gilda Display', serif;
-    border-radius: 10px;
+   
     font-size: 18px;
     
 }
@@ -12,6 +12,7 @@
 }
 
 body{
+    padding-top: 80px;
     background-color: rgba(255, 212, 119, 0.992);
 }
 
@@ -79,6 +80,7 @@ body{
 
 
 .contenedor, .contenedor-lista, .subcontenedor, .subcontenedor-lista, .List, .contenedor-indice, .contenedor-1, .subcontenedor-2  {
+    border-radius: 10px;
     background-color:rgb(144, 254, 245);
 }
 
@@ -111,14 +113,13 @@ p{
     font-family:Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
-    margin-left: 250px;
-    margin-right: 250px;
-    border-radius: 50px;
+    position: fixed;
     margin-bottom: 15px;
    height: 100;
-   width: 100;
-    outline: rgb(71, 195, 81) solid 2px;
+   width: 100%;
     background-color:rgb(144, 254, 245);
+    z-index: 1000;
+    top: 0%;
    
 }
 
@@ -129,6 +130,7 @@ p{
 .nav_li_link {
    display: inline-block;
    padding: 10px;
+  
   
    
    
