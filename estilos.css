@@ -157,8 +157,6 @@ p{
     height: 100%;
     border-radius: 30px;
     margin: 20px;
-    object-fit: cover;
-   
 }
 
 .img2 { 
@@ -169,6 +167,7 @@ p{
     height: 200px;
     border-radius: 30px;
     margin: 20px;
+    object-fit: cover;
 }
 
 .subcontenedor{
@@ -247,3 +246,22 @@ margin-left: 20px;
     text-align: center;
     width: 25px;
 }
+
+@media only screen and (max-width: 600px) {
+    .Introducción {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .subcontenedor{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .img2{
+        width: 50%;
+        height: 50%;
+        margin: 0em;
+    }
+    *{
+        font-size: 30px;
+    }
+  }
