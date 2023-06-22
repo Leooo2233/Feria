@@ -38,7 +38,7 @@ body{
 .contenedor{
 
     padding: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px;
     outline: rgb(71, 195, 81) solid 2px;
@@ -120,6 +120,7 @@ p{
     background-color:rgb(144, 254, 245);
     z-index: 1000;
     top: 0%;
+    outline: rgb(71, 195, 81) solid 2px;
    
 }
 
@@ -138,7 +139,7 @@ p{
 
 .nav_li_link i  {
     padding-right: 5px;
-    width: 30px;
+    width: 50px;
     text-align: center;
     color: rgb(174, 34, 234)
 }
@@ -146,6 +147,7 @@ p{
 .nav_li_link a {
     text-decoration: none;
     color: #d400ff;
+    font-size: 25px;
 }
 
 
@@ -231,4 +233,17 @@ margin-left: 20px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+}
+
+.h2_icon {
+    display: block;
+    text-align: center;
+    position: relative;
+    padding-bottom: 0px;
+}
+
+.h2_icon i {
+    color: #000000;
+    text-align: center;
+    width: 25px;
 }
