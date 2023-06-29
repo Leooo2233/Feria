@@ -1,6 +1,6 @@
 * 
 {
-	color: rgb(25, 0, 255);
+	color: #ff4500;
     font-family: 'Gilda Display', serif;
    
     font-size: 18px;
@@ -9,12 +9,19 @@
 
 h2:hover{
     color: rgb(219, 38, 95);
+    font-size: 40px;
+}
+
+h2:hover > i {
+    font-size: 30px;
+    color: rgb(219, 38, 95);
+    transition: all, 2s;
 }
 
 body{
     padding-top: 40px;
     
-    background-color: #2a363b
+    background-color: #2a363b;
 }
 
 .h1-titulo {
@@ -59,7 +66,7 @@ body{
     flex-wrap: nowrap;
     width: 100;
     margin-bottom: 30px;
-    background-color: #a9a9a9
+    background-color: #fff8dc;
 }
 
 .contenedor-lista {
@@ -67,6 +74,7 @@ body{
     margin-bottom: 15px;
     display: inline-block;
     margin-left: 50px;
+    
     
 
 }
@@ -84,25 +92,25 @@ body{
 
 .contenedor, .contenedor-lista, .subcontenedor, .subcontenedor-lista, .List, .contenedor-indice, .contenedor-1, .subcontenedor-2  {
     border-radius: 10px;
-    background-color: #fff8dc
+    background-color: #a9a9a9;
 }
 
 .contenedor-lista, .contenedor-1, .contenedor-indice, .List  {
     outline: #fff solid 2px;
+    transition: all, 2s;
 }
 
 
 
 
-h2, h3 {
+h2, h3, h4 {
     text-align: center;
     text-decoration: underline;
     display: block;
-    color: rgb(25, 0, 255);
+    color: #2a363b;
     font-size: 30px;
 }
 
-a {}
 
 
 
@@ -124,7 +132,10 @@ nav {
     z-index: 10000;
     display: flex;
     
-    
+}
+
+nav:hover {
+    height: 100px;
 }
 
 .nav_ul {
@@ -141,8 +152,12 @@ nav {
 
 }
 
+
+
 .nav_li:hover > a {
-    color: #fff
+    color: #fff;
+    font-size: 30px;
+    transition: all, 2s;
 }
 
 .nav_li i  {
@@ -162,6 +177,8 @@ nav {
 
 .nav_li:hover > i {
     color: #fb00ff;
+    font-size: 30px;
+    transition: all, 2s;
 
 }
 
@@ -179,6 +196,7 @@ nav {
     margin: 20px;
 }
 
+
 .img2 { 
     display: inline;
     margin-left: 5px;
@@ -191,7 +209,7 @@ nav {
 }
 
 .subcontenedor{
-   background-color: #a9a9a9;
+   background-color: #fff8dc;
    display: flex;
    flex-wrap: nowrap;
    flex-direction: row-reverse;
@@ -205,7 +223,30 @@ nav {
     height: 100;
     margin-left: 50px;
     text-decoration: none;
+    transition: all, 2s;
 
+}
+
+*:hover {
+    transition: all, 2s;
+}
+
+.contenedor-indice:hover {
+    transition: all, 2s;
+    width: 500px;
+    text-decoration: underline;
+    
+}
+
+.contenedor-1:hover {
+    transition: all, .5s;
+    width: 500px;
+}
+
+.contenedor-lista:hover {
+    transition: all, 2s;
+    width:600px;
+    height: 700px;
 }
 
 .subcontenedor-indice {
@@ -215,6 +256,8 @@ nav {
     position: relative;
     padding-right: 20px;
     text-decoration: none;
+    transition: all, 2s;
+
 }
 
 .subcontenedor-indice a {
@@ -239,6 +282,7 @@ nav {
 
 .contenedor-1 h4 {
     font-size: 27px;
+    
 }
 
 .subcontenedor-1{
@@ -262,6 +306,7 @@ margin-left: 20px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    transition: all, 2s;
     
     
 }
