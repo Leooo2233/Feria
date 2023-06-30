@@ -67,6 +67,7 @@ body{
     width: 100;
     margin-bottom: 30px;
     background-color: #fff8dc;
+    
 }
 
 .contenedor-lista {
@@ -157,7 +158,7 @@ nav:hover {
 .nav_li:hover > a {
     color: #fff;
     font-size: 30px;
-    transition: all, 2s;
+    transition: all, 1.2s;
 }
 
 .nav_li i  {
@@ -178,7 +179,7 @@ nav:hover {
 .nav_li:hover > i {
     color: #fb00ff;
     font-size: 30px;
-    transition: all, 2s;
+    transition: all, 1.2s;
 
 }
 
