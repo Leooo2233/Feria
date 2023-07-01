@@ -2,10 +2,9 @@
 {
 	color: #ff4500;
     font-family: 'Gilda Display', serif;
-   
     font-size: 18px;
-    
 }
+
 
 h2:hover{
     color: rgb(219, 38, 95);
@@ -15,7 +14,7 @@ h2:hover{
 h2:hover > i {
     font-size: 30px;
     color: rgb(219, 38, 95);
-    transition: all, 2s;
+    transition: all,;
 }
 
 body{
@@ -63,7 +62,6 @@ body{
     justify-content: center;
 }
 .contenedor{
-
     padding: 15px;
     margin-bottom: 20px;
     margin-left: 10px;
@@ -82,8 +80,9 @@ body{
     display:flex ;
     flex-wrap: nowrap;
     width: 100;
-    margin-bottom: 30px;
+    margin: 30px;
     background-color: #fff8dc;
+    border-radius: 20px;
     
 }
 
@@ -231,6 +230,7 @@ nav:hover {
    display: flex;
    flex-wrap: nowrap;
    flex-direction: row-reverse;
+   margin: 20px;
 }
 
 .contenedor-indice {
@@ -257,7 +257,7 @@ nav:hover {
 }
 
 .contenedor-1:hover {
-    transition: all, .5s;
+    transition: all, ;
     width: 500px;
 }
 
