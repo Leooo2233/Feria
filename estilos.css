@@ -14,7 +14,7 @@ h2:hover{
 h2:hover > i {
     font-size: 30px;
     color: rgb(219, 38, 95);
-    transition: all,;
+    transition: all, 2s;
 }
 
 body{
@@ -83,6 +83,7 @@ body{
     margin: 30px;
     background-color: #fff8dc;
     border-radius: 20px;
+    
 }
 
 .contenedor-lista {
@@ -173,7 +174,7 @@ nav:hover {
 .nav_li:hover > a {
     color: #fff;
     font-size: 30px;
-    transition: all, 2s;
+    transition: all, 1.2s;
 }
 
 .nav_li i  {
@@ -194,7 +195,7 @@ nav:hover {
 .nav_li:hover > i {
     color: #fb00ff;
     font-size: 30px;
-    transition: all, 2s;
+    transition: all, 1.2s;
 
 }
 
