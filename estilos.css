@@ -14,7 +14,7 @@ h2:hover{
 h2:hover > i {
     font-size: 30px;
     color: rgb(219, 38, 95);
-    transition: all,;
+    transition: all, 2s;
 }
 
 body{
