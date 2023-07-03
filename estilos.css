@@ -232,6 +232,12 @@ nav:hover {
    flex-direction: row-reverse;
    margin: 20px;
 }
+.Biografía{
+   background-color: #fff8dc;
+   margin: 25px;
+   padding: 20px;
+   border-radius: 20px;
+}
 
 .contenedor-indice {
     padding: 10px;
