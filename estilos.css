@@ -17,6 +17,16 @@ h2:hover > i {
     transition: all, 2s;
 }
 
+h3:hover { 
+    color: rgb(219, 38, 95);
+    font-size: 40px;
+}
+
+h4:hover {
+    color: rgb(219, 38, 95);
+    font-size: 40px;
+}
+
 body{
     padding-top: 40px;
     
@@ -107,7 +117,7 @@ body{
 }
 
 
-.contenedor, .contenedor-lista, .subcontenedor, .subcontenedor-lista, .List, .contenedor-indice, .contenedor-1, .subcontenedor-2  {
+.contenedor, .contenedor-lista, .subcontenedor, .subcontenedor-lista, .List, .contenedor-indice, .contenedor-1, .subcontenedor-2,.footer__biografía {
     border-radius: 10px;
     background-color: #a9a9a9;
 }
@@ -148,7 +158,7 @@ nav {
     height: 50px;
     z-index: 10000;
     display: flex;
-    
+      
 }
 
 nav:hover {
@@ -159,6 +169,7 @@ nav:hover {
     
     margin: auto;
     text-align: center;
+    padding: 10px;
     
 }
 
@@ -197,6 +208,7 @@ nav:hover {
     font-size: 30px;
     transition: all, 1.2s;
 
+
 }
 
 
@@ -232,14 +244,9 @@ nav:hover {
    flex-direction: row-reverse;
    margin: 20px;
 }
-.Biografía{
-   background-color: #fff8dc;
-   margin: 25px;
-   padding: 20px;
-   border-radius: 20px;
-}
 
-.contenedor-indice {
+
+ .contenedor-indice {
     padding: 10px;
     margin-bottom: 15px;
     display: inline-block;
@@ -330,8 +337,6 @@ margin-left: 20px;
     flex-wrap: nowrap;
     justify-content: center;
     transition: all, 2s;
-    
-    
 }
 
 .h2_icon {
@@ -400,3 +405,31 @@ margin-left: 20px;
         
     }
 }
+
+.img3 {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.div__img {
+    padding: 10px;
+    position: relative;
+}
+
+.footer__biografía {
+    padding: 15px;
+    border-top: #fff solid 2px;
+    border-radius: 0;
+}
+
+
+.Biografía{
+    background-color: #fff8dc;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 10px;
+    }
